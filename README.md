@@ -22,6 +22,8 @@ Desarrollar una aplicación de medición, control, actuación y presentación de
 - Se emplea la biblioteca `Servo.h` para facilitar el control del servomotor.
 - La alimentación del protoboard se realiza desde los pines **5V** y **GND** del Arduino.
 
+![](images/img_ap1.jpeg)
+
 ### 2: Aplicación de control de 8 leds con 74HC595 
 
 - Se utiliza el chip **74HC595** para controlar el encendido de **8 LEDs** mediante solo **3 pines digitales** del Arduino, optimizando el uso de pines.
@@ -32,6 +34,8 @@ Desarrollar una aplicación de medición, control, actuación y presentación de
 - A menor iluminación detectada, mayor cantidad de LEDs encendidos, simulando un sistema de iluminación automática.
 - Se incluye un **botón pulsador** que puede utilizarse para activar o desactivar el sistema manualmente o cambiar entre modos de operación.
 - Las conexiones se realizan entre los pines digitales del Arduino (2 al 13) y los pines del 74HC595, además de la alimentación (5V y GND) a la protoboard.
+
+![](images/img_ap2.jpeg)
 
 ### 3: Aplicación de la medición con LDR para el control de iluminación con un led mediante una salida PWM 
 
@@ -46,6 +50,8 @@ Desarrollar una aplicación de medición, control, actuación y presentación de
   - Alimentación de 5V y GND desde el Arduino a la protoboard.
 - Se ha añadido un servomotor que modifica el ángulo en función de la luminancia ambiental, como una placa solar móvil.
 
+![](images/img_ap3.jpeg)
+
 ### 4: Control de 5 leds según el valor de un LSR
 
 - Se implementa un sistema de iluminación progresiva que responde a los niveles de oscuridad del entorno.
@@ -56,6 +62,8 @@ Desarrollar una aplicación de medición, control, actuación y presentación de
 - Las conexiones se realizan entre los pines digitales del Arduino y los LEDs, el botón y el motor, además de la alimentación desde los pines **5V** y **GND**.
 - Se utiliza un **LDR** (sensor de luz) y un **potenciómetro** para ajustar el umbral de sensibilidad a la luz.
 - El código está diseñado para adaptarse automáticamente a diferentes condiciones de iluminación sin necesidad de modificarlo manualmente.
+
+![](images/img_ap4.jpeg)
 
 ### 5: Sistema de control de temperatura, humedad y luz con LED y servomotor
 
@@ -69,6 +77,8 @@ Desarrollar una aplicación de medición, control, actuación y presentación de
 - La humedad se puede visualizar en el monitor serial para seguimiento ambiental. 
 - Se conecta el DHT22 al pin digital D2, el LDR al pin A0, el LED al pin D13, y el servomotor al pin D9. 
 - La lógica permite una integración básica de clima en aplicaciones como invernaderos automatizados o sistemas de ventilación inteligente.
+
+![](images/img_ap5.jpeg)
 
 ## 🛠️ Componentes Utilizados
 
